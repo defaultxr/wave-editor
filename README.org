@@ -1,0 +1,11 @@
+#+TITLE: wave-editor
+
+A "wave editor", a la [[https://www.audacityteam.org][Audacity]]. Written in Common Lisp, using the Tk-based [[https://notabug.org/cage/nodgui][Nodgui]] GUI toolkit.
+
+In very early stages of development. Not much is implemented right now, and expect progress to be extremely slow or nonexistent as I am prioritizing [[https://github.com/defaultxr/thundersnow][thundersnow]] and my many other projects.
+
+* Similar projects
+
+- [[https://cl-wav-synth.common-lisp.dev][cl-wav-synth]] - McCLIM-based graphical audio file editor. Has a decent amount of features, but the main fork hasn't seen much development lately and has bitrotted, causing some errors when attempting to run it. [[https://github.com/defaultxr/cl-wav-synth][My fork]] fixes a few of these issues.
+
+- [[https://github.com/defaultxr/thundersnow][thundersnow]] - McCLIM-based digital audio workstation. Effectively a suite of audio/music-related graphical tools, primarily based around sequencing, but also includes a work-in-progress wave editor of its own. Still in early stages of development, but likely to see more progress than wave-editor.

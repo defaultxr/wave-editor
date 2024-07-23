@@ -8,4 +8,6 @@
         #:nodgui)
   (:local-nicknames (:a :alexandria)
                     (:clp :cl-patterns))
-  (:export :wave-editor))
+  (:export
+   #:wave-editor
+   #:launch-wave-editor))

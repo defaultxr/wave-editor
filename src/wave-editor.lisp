@@ -217,7 +217,7 @@
          (length (bdef-length bdef))
          (start (/ (selection-start wave-editor) length))
          (end (/ (wave-editor-selection-end wave-editor) length)))
-    (play (cl-patterns:event :instrument :sp :buffer bdef :start start :end end :quant 0 :latency 0.01 :beat 1/10))))
+    (cl-patterns:play (cl-patterns:event :instrument :sp :buffer bdef :start start :end end :quant 0 :latency 0.01 :beat 1/10))))
 
 (defun save-project (&optional (wave-editor *wave-editor*))
   (format t "Save pressed (but not done yet).~%"))
